@@ -56,6 +56,17 @@
         </Tab>
     </FlyoutItem>
 
+    <!-- 上タブを使う -->
+    <FlyoutItem Title="FlyoutItem4" Icon="tab_feed.png">
+        <Tab Title="Browse4" Icon="tab_feed.png">
+            <ShellContent Title="Browse41" Icon="tab_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
+            <ShellContent Title="About41" Icon="tab_about.png" ContentTemplate="{DataTemplate local:AboutPage}" />
+        </Tab>
+        <Tab Title="About4" Icon="tab_about.png">
+            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
+        </Tab>
+    </FlyoutItem>
+
     <Shell.FlyoutHeaderTemplate>
         <DataTemplate>
             <Grid BackgroundColor="ForestGreen" Padding="16" HeightRequest="100">
